@@ -1,0 +1,58 @@
+/* Main color */
+
+h2, a:hover, .icon:hover
+{
+	color: #EB5055;
+}
+
+.navbar-toggle
+{
+	background: #EB5055;
+}
+
+.navbar-toggle:focus
+{
+	background: #EB5055;
+}
+
+.action-btn, .icon
+{
+	background: #EB5055;
+}
+
+.menu .nav>li>a:hover
+{
+	border-bottom: solid #EB5055 3px;
+}
+
+.menu .nav>li.active>a
+{
+	border-bottom: solid #EB5055 3px;
+}
+
+.current-li
+{
+	border-bottom: solid #EB5055 3px;
+}
+
+.icon:hover
+{
+	border: solid #EB5055 1px;
+}
+
+/* Secondary color */
+
+.action-btn
+{
+	box-shadow: inset 0 -3px 0 #D4181E;
+}
+
+.action-btn:hover
+{
+	background: #D4181E;
+}
+
+.action-btn:active
+{
+	background: #D4181E;
+}

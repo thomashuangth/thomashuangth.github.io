@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+/* Theme color */
+/*
+	Change this import to choose your main color of your landing page
+*/
+@import url("red.css");
+
+/* Options Panel */
+@import url("options.css");
+
+/*********************/
+/* TABLE OF CONTENTS */
+/*********************/
+
+/*-----------------------
+|						|
+|	1.  GLOBAL			|
+|	2.  HEADER			|
+|	3.  HERO			|
+|	4.  INTRO			|
+|	5.  VIDEO			|
+|	6.  FEATURES		|
+|	7.  QUOTES			|
+|	8.  CONTACT			|
+|	9.  MAP				|
+|	10. ANIMATIONS		|
+|	11. RESPONSIVE		|
+|						|
+-----------------------*/
+
+/***** 1. GLOBAL *****/
+
+body
+{
+	font-family: 'Oxygen', sans-serif;
+	position: relative;
+}
+
+h1, h2, h3
+{
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: uppercase;
+}
+
+h1
+{
+	font-size: 80px;
+	letter-spacing: 5px;
+	color: rgba(255,255,255,0.9);
+}
+
+h2
+{
+	font-size: 24px;
+}
+
+h3
+{
+	font-size: 18px;
+	color: black;
+}
+
+a
+{
+	color: black;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+a:focus
+{
+	text-decoration: none;
+}
+
+:hover, a
+{
+	transition: all 0.1s ease-in-out;
+}
+
+.action-btn
+{
+	position: relative;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 15px 30px;
+	margin: 60px 0 0;
+	color: white;
+	border-radius: 2px;
+}
+
+.action-btn:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+.action-btn:active
+{
+	color: white;
+	text-decoration: none;
+	top: 3px;
+	box-shadow: inset none;
+}
+
+.action-btn:focus
+{
+	color: white;
+	text-decoration: none;
+}
+
+section
+{
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.6);
+	font-size: 16px;
+}
+
+.section-padding
+{
+	padding: 90px 0 100px 0;
+}
+
+.section-background
+{
+	background: #eee;
+}
+
+/***** 2. HEADER *****/
+
+.menu
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 80%;
+	min-height: 0;
+	margin: auto;
+	margin-top: 15px;
+	background: white;
+	border-radius: 2px;
+	font-size: 18px;
+	z-index: 25;
+	border: solid #eee 1px;
+	box-sizing: border-box;
+}
+
+.menu.sticky
+{
+	position: fixed;
+	width: 100%;
+	margin: auto;
+}
+
+.menu .nav>li>a
+{
+	display: inline-block;
+	background: transparent;
+	color: #555;
+	padding: 10px;
+	margin: 15px 5px;
+}
+
+.menu .nav>li>a:hover
+{
+	background: transparent;
+}
+
+.menu .nav>li>a:hover
+{
+	background: transparent;
+}
+
+.menu .nav>li.active>a
+{
+	background: transparent;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    padding-bottom: 5px;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+
+.navbar-toggle
+{
+	border-radius: 2px;
+}
+
+.navbar-toggle .icon-bar 
+{
+	background-color: white;
+}
+
+/***** 3. HERO *****/
+
+section.hero
+{
+	background: url('../img/Hero.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 35vh;
+	height: 100vh;
+	font-size: 18px;
+	color: rgba(255,255,255,0.9);
+	-webkit-transform:translatez(0);
+}
+
+/***** 4. INTRO *****/
+
+
+
+/***** 5. VIDEO *****/
+
+
+
+/***** 6. FEATURES *****/
+
+.icon
+{
+	color: white;
+	font-size: 4rem;
+	border: solid white 3px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.icon:hover
+{
+	background: none;
+	cursor: pointer;
+}
+
+/***** 7. QUOTES *****/
+
+section.quotes
+{
+	background: url('../img/Quotes.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+	position: relative;
+}
+
+section.quotes
+{
+	font-size: 32px;
+	letter-spacing: 1px;
+	color: white;
+	opacity: 0.9;
+	font-weight: 400;
+}
+
+blockquote
+{
+	margin: 0;
+}
+
+.black-screen
+{
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/***** 8. CONTACT *****/
+
+
+
+/***** 9. MAP *****/
+
+#map_canvas
+{
+	height: 500px;
+}
+
+.gm-style {
+	font-family: 'Oxygen', sans-serif !important;
+}
+
+.gm-style .gm-style-iw {
+	font-weight: 300;
+	font-size: 18px;
+}
+
+/***** 10. ANIMATIONS *****/
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -30%, 0);
+            transform: translate3d(0, -30%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+            transform: translate3d(0, 30%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+
+/***** 11. RESPONSIVE *****/
+
+@media (max-width: 991px) {
+	blockquote
+	{
+		margin: 20px 0;
+	}
+}
+
+@media (max-width: 767px) {
+	h1
+	{
+		font-size: 50px;
+	}
+
+	blockquote
+	{
+		margin: 20px 0;
+	}
+
+	section
+	{
+		font-size: 14px;
+	}
+
+	.section-padding
+	{
+		padding: 40px 0 50px 0;
+	}
+
+	.menu .nav>li>a
+	{
+		margin: 10px 0;
+		padding: 10px;
+		font-size: 16px;
+	}
+
+	.navbar-nav{
+	    margin: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	h1
+	{
+		font-size: 35px;
+	}
+
+	blockquote
+	{
+		margin: 20px 0;
+	}
+
+	section
+	{
+		font-size: 12px;
+	}
+
+	.section-padding
+	{
+		padding: 30px 0 40px 0;
+	}
+
+	.menu .nav>li>a
+	{
+		margin: 5px 0;
+		padding: 5px;
+		font-size: 14px;
+	}
+}

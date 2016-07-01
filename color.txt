@@ -1,0 +1,2 @@
+dark blue grey : #2f3543
+flat red : #eb5055 
