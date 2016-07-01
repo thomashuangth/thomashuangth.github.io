@@ -122,6 +122,7 @@ section:last-of-type {
 	background: #eb5055; 
 	padding: 3px 15px;
 	border-radius: 2px;
+	white-space: nowrap;
 }
 
 /* TIMELINE */
@@ -297,6 +298,17 @@ section:last-of-type {
 		padding: 50px 0 100px 0;
 	}
 
+	section:first-of-type {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	section:first-of-type p {
+		margin-top: 30px;
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+
 	.nav {
 		float: none!important;
 		margin: auto;
@@ -356,6 +368,10 @@ section:last-of-type {
 
 	h2 {
 		font-size: 32px;
+	}
+
+	section:first-of-type {
+		text-align: center;
 	}
 
 	.project .logo {
