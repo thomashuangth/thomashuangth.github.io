@@ -40,6 +40,10 @@ a:hover {
 	cursor: pointer;
 }
 
+a:focus {
+	text-decoration: none;
+}
+
 .container {
 }
 
@@ -190,7 +194,7 @@ section:last-of-type {
 }
 
 .project.empty-project .logo {
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.1);a:;
 	cursor: not-allowed;
 }
 
@@ -255,7 +259,7 @@ section:last-of-type {
 
 }
 
-.project .logo.lightsearch {
+.project .logo.lightsearch {a:;
 	background: url("img/Lightsearch background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
