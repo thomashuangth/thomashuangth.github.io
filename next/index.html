@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Next, Grossiste de Paris">
+		<meta name="keywords" content="Next, Grossiste, Paris, Valise, Bagage, Voyage, Prix, Aubervilliers, 93">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Next - Company Desc</title>
+
+		<link rel="icon" type="image/ico" href="img/favicon.ico">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="animate.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			
+		</header>
+		<section class="hero">
+			<div class="blackscreen">
+				<div class="container-fluid text-center">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="animated fadeInDown">
+								Next
+							</h1>
+							<p class="animated fadeInDown delay-05s">Grossiste Paris blablabla</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features">
+			<div class="container text-center">
+				<h2>Luggage</h2>
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/trolley-bag.svg" alt="">
+						<p>Luggage</p>
+					</div>
+					<div class="col-sm-4">
+						<img src="img/suitcase.svg" alt="">
+						<p>Luggage</p>
+					</div>
+					<div class="col-sm-4">
+						<img src="img/luggage.svg" alt="">
+						<p>Luggage</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="map text-center">
+			 <div class="container-fluid">
+                <div class="row">
+                    <div id="map_canvas"></div>
+                </div>
+            </div>
+		</section>
+		<footer class="text-center">
+			<h2>Contactez-nous</h2>
+			<p>Next<br>43-45 Rue de la Haie Coq<br>93300 AUBERVILLIERS</p>
+			<p>06 26 84 43 50</p>
+			<div class="credits">
+				<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+				<p>Copyrights 2016 ©</p>
+			</div>
+		</footer>
+	</body>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwNwwDdRxxWmecuQdiT4XeRnnKfsEazJ8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+		"use strict";
+
+		var address = "Next<br>43-45 Rue de la Haie Coq<br>93300 AUBERVILLIERS";
+
+		function initialize() {
+			var myLatlng = new google.maps.LatLng(48.9074264, 2.3713302);
+		    var mapCanvas = document.getElementById('map_canvas');
+		    var mapOptions = {
+		      center: myLatlng,
+		      zoom: 12,
+			}
+
+			var map = new google.maps.Map(mapCanvas, mapOptions);
+
+			var contentString = address;
+			var infowindow = new google.maps.InfoWindow({
+				content: contentString
+			});
+
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title: 'Visitez notre boutique'
+			});
+
+			infowindow.open(map,marker);
+
+			google.maps.event.addListener(marker, 'click', function() {
+				infowindow.open(map,marker);
+			});
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+
+	</script>
+</html>

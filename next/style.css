@@ -1,0 +1,102 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 50px;
+}
+
+h2 {
+	margin: 0;
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+section {
+	padding: 70px 0 100px 0;
+}
+
+section.hero {
+	position: relative;
+	background: url("img/hero.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #EEE;
+	box-shadow:inset 0 0 200px rgba(0,0,0,1);
+	min-height: 500px;
+}
+
+section.hero p {
+	font-size: 18px;
+}
+
+.blackscreen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+	justify-content: center;
+}
+
+section.features img {
+	margin-bottom: 25px;
+}
+
+section.map {
+	padding: 0;
+}
+
+section.map #map_canvas {
+	height: 500px;
+}
+
+img {
+	width: 50%;
+}
+
+footer {
+	color: #EEE;
+	background: #141414;
+	padding: 70px 0 100px 0;
+}
+
+footer .credits {
+	margin-top: 50px;
+}
+
+footer .credits, footer a {
+	color: #252525;
+}
+
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+	section {
+		padding: 70px;
+	}
+	section.features .row div {
+		margin-bottom: 50px;
+	}
+}
