@@ -4,71 +4,66 @@
 		<ul class="timeline">
 			<li>
 				<time class="text-center">
-					NOW
+					<?php echo tr("now"); ?>
 				</time>
 				<div class="timelabel">
-					<h3>5th Year at SUPINFO School</h3>
+					<h3><?php echo tr("supinfoTitle"); ?></h3>
 					<div class="clearfix"></div>
 					<hr>
 					<p>
-						Ecole Supérieur d'Informatique de Paris<br>
-						Mathematics, C, Java, PHP, Linux, SQL, Network, Microsoft
+						<?php echo tr("supinfoDesc"); ?>
 					</p>
 				</div>
 			</li>
 			<li>
 				<time class="text-center">
-					October 2016 <br> | <br> August 2016
+					<?php echo tr("october"); ?> 2016 <br> | <br> <?php echo tr("august"); ?> 2016
 				</time>
 				<div class="timelabel">
-					<h3>Love Food Love Design (Internship)</h3>
+					<h3>Love Food Love Design (<?php echo tr("internship"); ?>)</h3>
 					<div class="clearfix"></div>
 					<hr>
 					<p>
-						Wordpress development and Design Integration
-						(Front-End + Back-End)
+						<?php echo tr("LFLDDesc"); ?>
 					</p>
 				</div>
 			</li>
 			<li>
 				<time class="text-center">
-					October 2014 <br> | <br> November 2015
+					<?php echo tr("october"); ?> 2014 <br> | <br> <?php echo tr("november"); ?> 2015
 				</time>
 				<div class="timelabel">
-					<h3>Mensquare (Professional Contract)</h3>
+					<h3>Mensquare (<?php echo tr("proContract"); ?>)</h3>
 					<div class="clearfix"></div>
 					<hr>
 					<p>
-						Working on Mensquare Group (Autonews, Onzemondial, Menly) and Clients (BHV, Galeries Lafayettes, Ballyshoes<br>
-						Environments : Wordpress, Instagram API
+						<?php echo tr("mensquareCPDesc"); ?>
 					</p>
 				</div>
 			</li>
 			<li>
 				<time class="text-center">
-					September 2014 <br> | <br> July 2014
+					<?php echo tr("september"); ?> 2014 <br> | <br> <?php echo tr("july"); ?> 2014
 				</time>
 				<div class="timelabel">
-					<h3>Mensquare (Internship)</h3>
+					<h3>Mensquare (<?php echo tr("internship"); ?>)</h3>
 					<div class="clearfix"></div>
 					<hr>
 					<p>
-						Statistics tool and video portal development<br>
-						Environments : LAMP, Google Analytics API, Dailymotion API
+						<?php echo tr("mensquareINTDesc"); ?>
 					</p>
 				</div>
 			</li>
 			<li>
 				<time class="text-center">
-					October 2013 <br> | <br> August 2013
+					<?php echo tr("october"); ?> 2013 <br> | <br> <?php echo tr("august"); ?> 2013
 				</time>
 				<div class="timelabel">
-					<h3>2YMEDIA - Adserverpub (Internship)</h3>
+					<h3>2YMEDIA - Adserverpub (<?php echo tr("internship"); ?>)</h3>
 					<div class="clearfix"></div>
 					<hr>
 					<p>
-						Technical Support<br>
-						Environments : LAMP, GIT
+						<?php echo tr("2YMEDIADesc"); ?>
 					</p>
 				</div>
 			</li>

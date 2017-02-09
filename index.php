@@ -12,6 +12,16 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		
+		<?php 
+			include 'functions.php';
+			if (isset($_GET["locale"])) {
+				$_SESSION["locale"] = $_GET["locale"];
+			} else {
+				$_SESSION["locale"] = "fr";
+			}
+		?>
+
 		<!-- SECTION INTRODUCTION -->
 		<?php include 'inc/introduction.section.php'; ?>
 
