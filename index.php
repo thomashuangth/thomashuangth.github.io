@@ -20,6 +20,7 @@
 			} else {
 				$_SESSION["locale"] = "fr";
 			}
+			define("AVAILABLE", true);
 		?>
 
 		<!-- SECTION INTRODUCTION -->

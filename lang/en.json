@@ -2,7 +2,7 @@
 	"timeline":"Timeline",
 	"projects":"Projects",
 	"contact":"Contact",
-	"description":"I am a web developer from Paris, France and currently studying at SUPINFO School finishing my 4th year. <br>I can build from front-end (HTML, CSS, Javascript, Angular, Responsive) <br> to back-end (PHP, NodeJS) with or without libraries/cms/framework (Bootstrap, Wordpress, Symfony 2).<br>I can work in a wide range of context and adapt to many environments (Apache, MySQL, MongoDB, Linux, MacOS, Windows).",
+	"description":"I am a web developer from Paris, France and currently studying at SUPINFO School in 5th year. <br>I can build from front-end (HTML, CSS, Javascript, Angular, Responsive) <br> to back-end (PHP, NodeJS) with or without libraries/cms/framework (Bootstrap, Wordpress, Symfony 2).<br>I can work in a wide range of context and adapt to many environments (Apache, MySQL, MongoDB, Linux, MacOS, Windows).",
 	"available":"Available for Hiring !",
 	"privateProject":"Private Project",
 	"yourCompanyHere":"Your Company Here",
@@ -29,5 +29,5 @@
 	"internship":"Internship",
 	"proContract":"Profesionnal Contract",
 	"hireMe":"Hire Me !",
-	"hireDesc":"I am currently looking for an internship of <b>6 months from Mid-April to end of October 2017</b>, please feel free to contact me for any questions."
+	"hireDesc":"I am free for any project you might have <b>or any help you may have</b>, please feel free to contact me for any questions."
 }
